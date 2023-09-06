@@ -239,7 +239,6 @@ h5 {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 40px;
-  padding-top: 0px;
 }
 @media (prefers-reduced-motion: reduce) {
   #colorlib-main {
@@ -251,13 +250,6 @@ h5 {
 @media (min-width: 992px) {
   #colorlib-main {
     width: 80%;
-  }
-}
-
-@media (max-width: 768px) {
-  #colorlib-main {
-    padding: 10px;
-    padding-top: 0px;
   }
 }
 
