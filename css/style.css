@@ -998,13 +998,13 @@ Start of banner section [*3]
   background-repeat: no-repeat;
   background-position: center center;
   animation: backgroundSlideshow 13s infinite;
+  background-size: cover;
 }
 
 @keyframes backgroundSlideshow {
   0%,
   100% {
     background-image: url(../assets/image/banner.png);
-    background-size: cover;
   }
   25% {
     background-image: url(../assets/image/banner1.png);
