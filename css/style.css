@@ -997,8 +997,26 @@ Start of banner section [*3]
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../assets/image/banner.png);
+  animation: backgroundSlideshow 13s infinite;
 }
+
+@keyframes backgroundSlideshow {
+  0%,
+  100% {
+    background-image: url(../assets/image/banner.png);
+    background-size: cover;
+  }
+  25% {
+    background-image: url(../assets/image/banner1.png);
+  }
+  50% {
+    background-image: url(../assets/image/banner.png);
+  }
+  75% {
+    background-image: url(../assets/image/banner1.png);
+  }
+}
+
 .banner-head {
   letter-spacing: 2px;
   font-size: 35px;
