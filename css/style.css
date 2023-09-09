@@ -947,7 +947,7 @@ h5 {
   font-family: "poppins";
   font-weight: 600;
   margin: 0 20px;
-  color: black; /* Set the text color to black */
+  color: black;
   text-decoration: none;
   transition: color 0.3s ease; /* Smooth transition for text color */
 }
@@ -964,6 +964,20 @@ h5 {
 
 .nav-g a:hover {
   color: #555; /* Change the text color on hover */
+}
+
+/* Default link styles */
+#switchToGallery1,
+#switchToGallery2 {
+  color: #333; /* Default text color */
+}
+
+/* Highlighted link styles */
+#switchToGallery1.selected,
+#switchToGallery2.selected {
+  color: #ff0000; /* Text color for selected link */
+  font-weight: bold; /* Bold text for selected link */
+  background-color: #f0f0f0; /* Background color for selected link */
 }
 
 /*----------------------------------------------------------------------- 

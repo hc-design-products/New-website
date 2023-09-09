@@ -162,11 +162,18 @@ $(document).ready(function () {
   $("#gallery1").show();
   $("#gallery2").hide();
 
-  // Add event listeners to the links
+  // Function to handle link selection
+  function selectLink(link) {
+    $(".nav-g a").removeClass("selected-link"); // Remove the class from all links
+    link.addClass("selected-link"); // Add the class to the selected link
+  }
+
+  // Add event listeners to the "switch to gallery" links
   $("#switchToGallery1").click(function (event) {
     event.preventDefault(); // Prevent the default link behavior
     $("#gallery2").fadeOut(300, function () {
       $("#gallery1").fadeIn(300);
+      selectLink($("#switchToGallery1")); // Select the clicked link
     });
   });
 
@@ -174,6 +181,7 @@ $(document).ready(function () {
     event.preventDefault(); // Prevent the default link behavior
     $("#gallery1").fadeOut(300, function () {
       $("#gallery2").fadeIn(300);
+      selectLink($("#switchToGallery2")); // Select the clicked link
     });
   });
 });

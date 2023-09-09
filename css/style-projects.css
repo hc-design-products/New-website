@@ -961,7 +961,7 @@ h5 {
 .nav-g a {
   font-size: 14px;
   font-family: "poppins";
-  font-weight: 600;
+
   margin: 0 20px;
   color: black; /* Set the text color to black */
   text-decoration: none;
@@ -980,6 +980,12 @@ h5 {
 
 .nav-g a:hover {
   color: #555; /* Change the text color on hover */
+}
+
+.selected-link {
+  color: #222425;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(0, 0, 0); /* Change to your desired highlight color */
 }
 
 /*----------------------------------------------------------------------- 
