@@ -6,6 +6,7 @@ body {
   background: #ffffff;
   color: gray;
 }
+
 body.slideout {
   overflow-x: hidden;
 }
@@ -242,6 +243,12 @@ h5 {
   padding-right: 40px;
   padding-bottom: 40px;
   padding-top: 0px;
+}
+
+/* styles.css */
+#colorlib-main {
+  opacity: 0; /* Initially set the opacity to 0 for the fade-in effect */
+  transition: opacity 0.5s ease; /* Add a smooth transition for opacity */
 }
 
 @media (max-width: 768px) {

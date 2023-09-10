@@ -185,3 +185,11 @@ $(document).ready(function () {
     });
   });
 });
+
+/**
+ * Page Transition
+ */
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("colorlib-main").style.opacity = 1; // Set opacity to 1 to trigger the fade-in effect
+});

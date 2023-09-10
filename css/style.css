@@ -672,9 +672,6 @@ h5 {
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery {
-  margin-top: 40px;
-}
 
 .gallery .gallery-item {
   position: relative;
@@ -1015,19 +1012,19 @@ Start of banner section [*3]
 @keyframes backgroundSlideshow {
   0%,
   100% {
-    background-image: url(../assets/image/banner.png);
+    background-image: url(../assets/image/Banners/banner.png);
     background-size: cover;
   }
   25% {
-    background-image: url(../assets/image/banner1.png);
+    background-image: url(../assets/image/Banners/banner1.png);
     background-size: cover;
   }
   50% {
-    background-image: url(../assets/image/banner.png);
+    background-image: url(../assets/image/Banners/banner.png);
     background-size: cover;
   }
   75% {
-    background-image: url(../assets/image/banner1.png);
+    background-image: url(../assets/image/Banners/banner1.png);
     background-size: cover;
   }
 }
