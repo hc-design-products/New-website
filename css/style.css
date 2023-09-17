@@ -1006,29 +1006,29 @@ Start of banner section [*3]
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
-  animation: backgroundSlideshow 13s infinite;
+  animation: backgroundSlideshow 15s infinite;
 }
 
 @keyframes backgroundSlideshow {
   0%,
   100% {
-    background-image: url(../assets/image/Banners/banner.png);
+    background-image: url(../assets/image/Banners/banner1.png);
     background-size: cover;
   }
   20% {
-    background-image: url(../assets/image/Banners/banner1.png);
+    background-image: url(../assets/image/Banners/banner2.png);
     background-size: cover;
   }
   40% {
-    background-image: url(../assets/image/Banners/banner.png);
+    background-image: url(../assets/image/Banners/banner3.png);
     background-size: cover;
   }
   60% {
-    background-image: url(../assets/image/Banners/banner1.png);
+    background-image: url(../assets/image/Banners/banner4.png);
     background-size: cover;
   }
   80% {
-    background-image: url(../assets/image/Banners/banner.png);
+    background-image: url(../assets/image/Banners/banner5.png);
     background-size: cover;
   }
 }
