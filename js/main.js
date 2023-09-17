@@ -193,3 +193,19 @@ $(document).ready(function () {
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("colorlib-main").style.opacity = 1; // Set opacity to 1 to trigger the fade-in effect
 });
+
+/**
+ * Dropdown
+ */
+
+// JavaScript to toggle the dropdown when the button is clicked
+const dropdownButton = document.querySelector(".dropdown-button");
+const dropdownContent = document.querySelector(".dropdown-content");
+
+dropdownButton.addEventListener("click", function () {
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.style.display = "block";
+  }
+});
